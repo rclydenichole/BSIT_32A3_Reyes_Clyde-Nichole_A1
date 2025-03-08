@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+}
+
+/* About Section */
+#about {
+    background: #f8f9fa;
+}
+
+/* Contact Section */
+#contact {
+    background: #e9ecef;
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        text-align: center;
+    }
+}
